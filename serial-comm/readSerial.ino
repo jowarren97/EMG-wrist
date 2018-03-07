@@ -29,7 +29,7 @@ void loop()
   
   if (Serial.available() > 0)
   {
-   val = Serial.read();
+   val = Serial.parseInt();
    {
     motor.step(val);
    } 
