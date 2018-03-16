@@ -16,8 +16,8 @@ void setup()
 {
   Serial.begin(9600);
   
-  stepper1.setMaxSpeed(1000); //150rpm
-  stepper2.setMaxSpeed(500); //150rpm
+  stepper1.setMaxSpeed(1000);
+  stepper2.setMaxSpeed(500);
 
   steppers.addStepper(stepper1);
   steppers.addStepper(stepper2);
